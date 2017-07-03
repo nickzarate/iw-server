@@ -1,0 +1,14 @@
+{
+  "name": "iw-server",
+  "version": "1.0.0",
+  "description": "Node.js server to handle requests made by iron-will",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Zarate",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.29"
+  }
+}
