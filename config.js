@@ -1,8 +1,10 @@
 'use strict'
 
+require('dotenv').config()
+
 var dbName = 'iron-will'
-var dbUsername = 'username'
-var dbPassword = 'password'
+var dbUsername = process.env.MONGODB_USER
+var dbPassword = process.env.MONGODB_PASSWORD
 
 module.exports = {
   name: 'iw-server',
