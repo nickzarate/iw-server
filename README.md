@@ -1,1 +1,7 @@
-This repository is the node.js server code for iron-will. It uses MongoDB.
+# Development
+
+To run the development server locally at `localhost:3000/`
+
+```
+$ npm run dev
+```
