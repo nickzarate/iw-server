@@ -1,8 +1,8 @@
 'use strict'
 
 var dbName = 'iron-will'
-var dbUsername = 'username'
-var dbPassword = 'password'
+var dbUsername = 'tester'
+var dbPassword = 'turnapp-tester'
 
 module.exports = {
   name: 'iw-server',
