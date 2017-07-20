@@ -15,9 +15,13 @@ module.exports = function(ctx) {
   // require routes here (instead of defining them)
 
   app.get('/login', (req, res) => {
-    db.collection('users').find({ email: req.headers.email, password: req.headers.password }).limit(1).next(function(err, user) {
+    // console.log(req)
+    db.collection('users').find({ email: req.query.email, password: req.query.password }).limit(1).next(function(err, user) {
+      console.log(user)
       if (user) {
         res.send(user)
+      } else {
+        res.send({ error: 'Email and password not found in the database' })
       }
     })
   })
