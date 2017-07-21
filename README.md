@@ -1,5 +1,11 @@
 # Development
 
+To download necessary packages
+
+```
+$ npm install
+```
+
 To run the development server locally at `localhost:3000/`
 
 ```
